@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact</title>
+</head>
+<body>
+	<header>
+  		<h1>Nur Adreena binti Mohammad Firdaus</h1>
+  		<p>Quiet Presence, Lasting Impression</p>
+	</header>
+
+	<nav>
+  		<a href="index.html">Return Home</a> |
+  		<a href="about.html">About Me</a> |
+  		<a href="skills.html">Skills</a> |
+  		<a href="academic.html">Academic Record</a> |
+  		<a href="projects.html">Projects</a> 
+	</nav>
+
+	<main>
+  	<section>
+    <h2>Drop a Contact </h2>
+    <h3>Reach Me for Any Inquiries !</h3>
+
+    <form action="#" method="post">
+
+      <fieldset style="border: 2px solid black; padding: 15px;">
+        <legend style="font-size: 18px; color: grey;">Personal Information</legend>
+
+        	<label for="fullname">Full Name:</label><br>
+        	<input type="text" id="fullname" name="fullname"
+          	style="border: 2px solid navy; padding: 6px; font-size: 14px;"
+          	placeholder="Enter your full name"
+          	required maxlength="60"><br><br>
+
+        	<label for="email">Email:</label><br>
+        	<input type="email" id="email" name="email"
+          	style="border: 2px solid hotpink; padding: 6px;"
+          	placeholder="example@email.com"
+          	required><br><br>
+
+        	<label for="phone">Phone Number:</label><br>
+        	<input type="tel" id="phone" name="phone"
+          	style="border: 2px solid darkgreen; padding: 6px;"
+          	placeholder="01X-XXXXXXX"><br><br>
+
+        	<label for="date">Birthday Date:</label><br>
+        	<input type="date" id="date" name="date"
+          	style="padding: 6px;"><br><br>
+
+        	<label for="age">Your Age:</label><br>
+        	<input type="number" id="age" name="age"
+          	min="1" max="100"
+          	style="padding: 6px;"><br><br>
+
+        	<label for="rating">Rate my portfolio (Max=Most Satisfied):</label><br>
+        	<input type="range" id="rating" name="rating"
+          	min="0" max="10"
+          	style="width: 200px;"><br><br>
+
+          	<label for="subject">Subject:</label><br>
+        	<select id="subject" name="subject"
+          	style="padding: 6px; background-color: pink;">
+          
+          	<optgroup label="General">
+            	<option value="inquiry">General Inquiry</option>
+            	<option value="feedback">Feedback</option>
+            	<option value="feedback">Collaboration</option>
+          	</optgroup>
+
+        	</select><br><br>
+
+        	<p>Expertise:</p>
+        	<input type="checkbox" id="web" name="expertise" value="web">
+        	<label for="web">Web Development</label><br>
+
+        	<input type="checkbox" id="design" name="expertise" value="design">
+        	<label for="design">UI/UX Design</label><br>
+
+        	<p>Preferred Contact Method:</p>
+        	<input type="radio" id="emailContact" name="contactMethod" value="email">
+        	<label for="emailContact">Email</label><br>
+
+        	<input type="radio" id="socmed" name="contactMethod" value="Social Media">
+        	<label for="phoneContact">Social Media</label><br>
+
+        	<input type="radio" id="whatsappContact" name="contactMethod" value="whatsapp">
+        	<label for="whatsappContact">WhatsApp</label><br><br>
+
+        	<label for="message">Drop a Note:</label><br>
+        	<textarea id="message" name="message"
+          		rows="4" cols="40"
+          		style="border: 2px solid black; padding: 6px;"
+          		placeholder="Write your message here..."
+          		maxlength="200"></textarea><br><br>
+
+        		<button type="submit"
+          			style="background-color: navy; color: white; padding: 10px; border: none;">
+          			Submit
+        		</button>
+
+       </fieldset>
+	</form>
+    </section>
+    </main>
+	
+</body>
+</html>
