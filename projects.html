@@ -3,26 +3,38 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<meta name="description" content="Personal Portfolio Project">
 	<title>Projects</title>
 </head>
 
 <body>
 	<header>
-  		<h1>Nur Adreena binti Mohammad Firdaus</h1>
-  		<p>Quiet Presence, Lasting Impression</p>
+		<div class="header-text">
+  			<h1>Nur Adreena binti Mohammad Firdaus</h1>
+  			<p>Quiet Presence, Lasting Impression</p>
+		</div>
+		<div class="header-image">
+    		<img src="images/profile.jpeg" alt="Portrait" width="120" height="150">
+  		</div>
 	</header>
 
 	<nav>
-  		<a href="index.html">Return Home</a> |
-  		<a href="about.html">About Me</a> |
-  		<a href="skills.html">Skills</a> |
-  		<a href="academic.html">Academic Record</a> |
-  		<a href="contact.html">Contact Me</a> 
+		<h2>Portfolio</h2>
+
+		<div class="nav-links">
+  			<a href="index.html">Home</a>
+  			<a href="about.html">About Me</a>
+  			<a href="skills.html">Skills</a>
+  			<a href="academic.html">Academic Record</a>
+  			<a href="projects.html" class="active">Projects</a>
+  			<a href="contact.html">Contact Me</a>
+		</div>
 	</nav>
 
 	<main>
   		<section>
-    		<h2>Profile</h2>
+    		<h3>Profile</h3>
 
     		<figure>
       			<img src="images/profile.jpeg"
@@ -31,33 +43,39 @@
            		height="250"
            		title="Profile Photo">
       			<figcaption>Potrait photo of myself.</figcaption>
-    		</figure>
+    		</figure><br>
 
-    		<h2>Project Showcase</h2>
+    		<h4>Project Showcase</h4>
 
     		<figure>
       			<a href="https://placehold.co/300x200">
     				<img src="https://placehold.co/300x200"
          			alt="Adreena's first web project homepage"
-         			width="300"
-         			height="200"
          			title="First Web Project">
   				</a>
       			<figcaption>Click the image to view my first web project</figcaption>
     		</figure>
 
+    		<div class="card">
     		<!-- align is deprecated -->
     		<img src="images/img2.png"
          		alt="One of the functions from my first web project"
-        		width="300"
-         		height="250"
-        		align="left"
+         		class="img-float"
         		title="One Function from the First Web Project">
 
    			 <p>
    			   This is one of the features from my first individual web project. It is used to simulate withdrawing money from a bank account, demonstrating basic transaction functionality.
     		</p>
+    	</div>
     	</section>
 	</main>
+
+		<footer>
+    	<small>© 2026 Adreena. All rights reserved.</small>
+    	<address>
+       		Email: nuradreena@graduate.utm.my<br>
+       		Phone: 010-8475804
+   		</address>
+	</footer>
 </body>
 </html>

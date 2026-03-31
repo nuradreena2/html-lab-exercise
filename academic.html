@@ -3,29 +3,37 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<meta name="description" content="Personal Portfolio Academic">
 	<title>Academic</title>
 </head>
 <body>
 
 	<header>
-  		<h1>Nur Adreena binti Mohammad Firdaus</h1>
-  		<p>Quiet Presence, Lasting Impression</p>
+		<div class="header-text">
+  			<h1>Nur Adreena binti Mohammad Firdaus</h1>
+  			<p>Quiet Presence, Lasting Impression</p>
+		</div>
+		<div class="header-image">
+    		<img src="images/profile.jpeg" alt="Portrait" width="120" height="150">
+  		</div>
 	</header>
 
 	<nav>
-  		<a href="index.html">Return Home</a> |
-  		<a href="about.html">About Me</a> |
-  		<a href="skills.html">Skills</a> |
-  		<a href="projects.html">Projects</a> |
-  		<a href="contact.html">Contact Me</a> 
+		<h2>Portfolio</h2>
+
+		<div class="nav-links">
+  			<a href="index.html">Home</a>
+  			<a href="about.html">About Me</a>
+  			<a href="skills.html">Skills</a>
+  			<a href="academic.html" class="active">Academic Record</a>
+  			<a href="projects.html">Projects</a>
+  			<a href="contact.html">Contact Me</a>
+		</div>
 	</nav>
 
-	<p> </p>
-
-	<h2>Academic Record</h2>
-	<h3>Year 2 Academic Results</h3>
-
 	<main>
+		<h3>Year 2 Academic Results</h3>
   		<section>
     		<table border="1" cellpadding="8" cellspacing="0">
   				<caption>Year 2 Semester 1 Academic Results</caption>
@@ -40,7 +48,7 @@
 
   				<tbody>
     				<tr>
-  						<th scope="row" rowspan="5" style="font-weight: normal;">Core</th>
+  						<th scope="row" rowspan="5">Core</th>
   						<td>Data Structure and Algorithm</td>
   						<td>3</td>
   						<td>A</td>
@@ -71,7 +79,7 @@
 					</tr>
 
 					<tr>
-  						<th scope="row" style="font-weight: normal;">Elective</th>
+  						<th scope="row">Elective</th>
   						<td>Agricultural Skill</td>
   						<td>2</td>
   						<td>A+</td>
@@ -93,7 +101,7 @@
 			</table>
 		</section>
 
-		<section style="margin-top: 50px;">
+		<section>
     		<table border="1" cellpadding="8" cellspacing="0">
   				<caption>Year 2 Semester 2 Academic Results</caption>
 
@@ -107,7 +115,7 @@
 
   				<tbody>
     				<tr>
-    					<th scope="row" rowspan="3" style="font-weight: normal;">Core</th>
+    					<th scope="row" rowspan="3">Core</th>
       					<td>Software Design & Architecture</td>
       					<td>3</td>
       					<td>N/A</td>
@@ -126,7 +134,7 @@
     				</tr>
 
     				<tr>
-    					<th scope="row" rowspan="3" style="font-weight: normal;">Elective</th>
+    					<th scope="row" rowspan="3">Elective</th>
       					<td>Business Intelligence</td>
       					<td>3</td>
       					<td>N/A</td>
@@ -160,5 +168,13 @@
 			</table>
 		</section>
 	</main>
+
+	<footer>
+    	<small>© 2026 Adreena. All rights reserved.</small>
+    	<address>
+       		Email: nuradreena@graduate.utm.my<br>
+       		Phone: 010-8475804
+   		</address>
+	</footer>
 </body>
 </html>

@@ -3,39 +3,49 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<meta name="description" content="Personal Portfolio Skill">
 	<title>Skills</title>
 </head>
 
 <body>
 
 	<header>
-  		<h1>Nur Adreena binti Mohammad Firdaus</h1>
-  		<p>Quiet Presence, Lasting Impression</p>
+		<div class="header-text">
+  			<h1>Nur Adreena binti Mohammad Firdaus</h1>
+  			<p>Quiet Presence, Lasting Impression</p>
+		</div>
+		<div class="header-image">
+    		<img src="images/profile.jpeg" alt="Portrait" width="120" height="150">
+  		</div>
 	</header>
 
 	<nav>
-  		<a href="index.html">Return Home</a> |
-  		<a href="about.html">About Me</a> |
-  		<a href="academic.html">Academic Record</a> |
-  		<a href="projects.html">Projects</a> |
-  		<a href="contact.html">Contact Me</a> 
+		<h2>Portfolio</h2>
+
+		<div class="nav-links">
+  			<a href="index.html">Home</a>
+  			<a href="about.html">About Me</a>
+  			<a href="skills.html" class="active">Skills</a>
+  			<a href="academic.html">Academic Record</a>
+  			<a href="projects.html">Projects</a>
+  			<a href="contact.html">Contact Me</a>
+		</div>
 	</nav>
-
-	<p> </p>
-
-	<h2>Skills</h2>
-
-	<nav>
+	
+	<div class="page-content">
+    <main>
+    	<nav>
   		<ul>
     		<li><a href="#top-skills">Top Skills</a></li>
     		<li><a href="#technologies">Technologies I Use</a></li>
     		<li><a href="#glossary">Glossary</a></li>
   		</ul>
-	</nav>
+			</nav>
 
-	<section id="top-skills">
+      <section id="top-skills" class="card">
     	<h3>Top Skills</h3>
-    		<ol type="I" start="6" reversed>
+    		<ol type="I" start="6" reversed class="bordered-list">
     			<li>Java Programming</li>
     			<li>C++ Programming</li>
     			<li>UI/UX Design</li>
@@ -45,9 +55,9 @@
   			</ol>
   	</section>
 
-  	<section id="technologies">
+  	<section id="technologies" class="card">
     	<h3>Technologies I Use</h3>
-    		<ul>
+    			<ul class="bordered-list">
     			<li>Programming & Development Tools
       			<ul>
         			<li>Dev C++</li>
@@ -59,6 +69,7 @@
       			</ul>
     			</li>
 
+    			<br>
     			<li>Networking Tools
       			<ul>
         			<li>Cisco Packet Tracer</li>
@@ -66,6 +77,7 @@
       			</ul>
     			</li>
 
+    			<br>
     			<li>Data Analysis & Visualisation
       			<ul>
         			<li>Alteryx</li>
@@ -74,30 +86,42 @@
     			</li>
   			</ul>
   	</section>
+   </main>
 
-  	<section id="glossary">
+  	<aside>
+    <section id="glossary" class="card">
     	<h3>Glossary</h3>
     		<dl>
 
     			<dt>Dev C++</dt>
-    			<dd>An IDE for writing and compiling C/C++ programs.</dd>
+    			<dd>An IDE for writing and compiling C/C++ programs.</dd><br>
 
     			<dt>Visual Studio Code</dt>
-    			<dd>An extensible code editor for multiple programming languages.</dd>
+    			<dd>An extensible code editor for multiple programming languages.</dd><br>
 
     			<dt>Visual Studio</dt>
-    			<dd>A full-featured IDE for developing applications in C#, C++, and other languages.</dd>
+    			<dd>A full-featured IDE for developing applications in C#, C++, and other languages.</dd><br>
 
     			<dt>Visual Paradigm</dt>
-    			<dd>A tool for creating UML diagrams and software modeling.</dd>
+    			<dd>A tool for creating UML diagrams and software modeling.</dd><br>
 
     			<dt>R Programming</dt>
-    			<dd>A programming language used for statistical computing and data analysis.</dd>
+    			<dd>A programming language used for statistical computing and data analysis.</dd><br>
 
     			<dt>Sublime Text</dt>
-    			<dd>A lightweight text editor popular for coding in multiple languages.</dd>
+    			<dd>A lightweight text editor popular for coding in multiple languages.</dd><br>
   			</dl>
 	</section>
+	</aside>
+	</div>
+
+	<footer>
+    	<small>© 2026 Adreena. All rights reserved.</small>
+    	<address>
+       		Email: nuradreena@graduate.utm.my<br>
+       		Phone: 010-8475804
+   		</address>
+	</footer>
     
 	
 </body>

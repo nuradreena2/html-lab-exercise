@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
 	<meta name="description" content="Personal Portfolio Homepage">
 	<title>Personal Portfolio</title>
 </head>
@@ -10,28 +11,41 @@
 <body>
 
 	<header>
-  		<h1>Nur Adreena binti Mohammad Firdaus</h1>
-  		<p>Quiet Presence, Lasting Impression</p>
+		<div class="header-text">
+  			<h1>Nur Adreena binti Mohammad Firdaus</h1>
+  			<p>Quiet Presence, Lasting Impression</p>
+		</div>
+		<div class="header-image">
+    	<img src="images/profile.jpeg" alt="Portrait" width="120" height="150">
+  </div>
 	</header>
 
 	<nav>
-  		<a href="about.html">About Me</a> |
-  		<a href="skills.html">Skills</a> |
-  		<a href="academic.html">Academic Record</a> |
-  		<a href="projects.html">Projects</a> |
-  		<a href="contact.html">Contact Me</a> 
+		<h2>Portfolio</h2>
+
+		<div class="nav-links">
+  			<a href="index.html" class="active">Home</a>
+  			<a href="about.html">About Me</a>
+  			<a href="skills.html">Skills</a>
+  			<a href="academic.html">Academic Record</a>
+  			<a href="projects.html">Projects</a>
+  			<a href="contact.html">Contact Me</a>
+		</div>
 	</nav>
 
 	<main>
-  		<section>
-    		<h2>Hello There !</h2>
-    		<p>Welcome to my personal space. Discover my journey as a <i>Software Engineering</i> student.</p>
-    		<p>Feel free to explore and take a glimpse of what I do.</p>
-  		</section>
 
-  		<section>
-    		<h2>Vision</h2>
-    		<p>Speak in code, Think in growth.</p>
+		<section class="page-cards">
+    		<div class="card featured-card">
+      			<h3>Hello There!</h3>
+      			<p>Welcome to my personal space. Discover my journey as a <i>Software Engineering</i> student.</p>
+      			<p>Feel free to explore and take a glimpse of what I do.</p>
+    		</div>
+
+    		<div class="card">
+      			<h3>Vision</h3>
+      			<p>Speak in code, Think in growth.</p>
+    		</div>
   		</section>
 	</main>
 
